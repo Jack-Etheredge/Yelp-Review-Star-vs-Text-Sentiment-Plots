@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from textblob import TextBlob
 from scipy.stats.stats import pearsonr
-reviewData = open("/Users/etheredgej/Desktop/yelp_dataset_challenge_round9/yelp_academic_dataset_review.json", "r").readlines()
+reviewData = open("yelp_academic_dataset_review.json", "r").readlines()
 
 businessInfo = {}    # Make an empty dictionary
 for d in reviewData[0:5000]:
